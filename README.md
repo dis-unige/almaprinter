@@ -1,4 +1,6 @@
-# Python Printer Daemon dedicated to printing letters and slips from Alma Printout Queues
+# Almaprinter
+
+A Python Printer Daemon developed by the University of Geneva Library and dedicated to printing letters and slips from Alma Printout Queues
 
 * Author: Pablo Iriarte, UNIGE Library - pablo.iriarte@unige.ch
 * Creation date: 14.05.2024
