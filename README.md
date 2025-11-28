@@ -6,25 +6,26 @@ A Python Printer Daemon developed by the University of Geneva Library and dedica
 * Creation date: 14.05.2024
 * Last modifications on: 18.07.2025
 
-## Alternatives and inspiration sources 
+## Install
 
-* https://github.com/ExLibrisGroup/alma-print-daemon
-* https://github.com/natliblux/alma-print-nogui
-* https://developers.exlibrisgroup.com/blog/print-daemon/
-* https://github.com/Boldie/PartKeeprPrintingService
-* https://github.com/university-of-york/fmsys-alma-printing-api
+Windows installers are available on the folder "install\soft"
 
-
-## Installation
-
-Windows installer files are available on the folder "install\soft"
-
-1. Insatll Python 3 
+1. Install Python 3 
 2. Install Ghostscript and add to PATH "C:\Program Files\gs\gs10.03.1\bin"
 3. Install html2pdf and add to PATH "C:\Program Files\wkhtmltopdf\bin"
-4. Add the python  libraries with pip: py -m pip install [library name]
-    - pywin32
+4. Add the python libraries with pip: py -m pip install [library name]
     - requests
+    - pywin32
     - pdfkit
     - html2text
 
+## Flowchart
+![](almaprinter.png)
+
+## Alternatives and inspiration sources 
+
+* **HoldSlipPrinter**: https://developers.exlibrisgroup.com/blog/print-daemon/ 
+* **Ex Libris Alma Print Daemon**: https://developers.exlibrisgroup.com/blog/how-to-set-up-and-use-the-alma-print-daemon/ 
+* **alma-print-nogui**: https://github.com/natliblux/alma-print-nogui 
+* **Alma Printing With Powershell**: https://github.com/university-of-york/fmsys-alma-printing-api
+* **PartKeeprPrintingService**: https://github.com/Boldie/PartKeeprPrintingService
