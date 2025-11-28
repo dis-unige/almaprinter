@@ -7,13 +7,6 @@
 # Date de cération : 14.05.2024
 # Date de dernière modification : 18.07.2025
 # 
-# Alternatives et sources d'inspiration : 
-# 
-#  * https://github.com/ExLibrisGroup/alma-print-daemon
-#  * https://github.com/natliblux/alma-print-nogui
-#  * https://developers.exlibrisgroup.com/blog/print-daemon/
-#  * https://github.com/Boldie/PartKeeprPrintingService
-#  * https://github.com/university-of-york/fmsys-alma-printing-api
 
 import os
 import sys
@@ -37,6 +30,7 @@ configPrinter = configparser.ConfigParser()
 configPrinter.read(['config/printer.ini'])
 
 # [PRINTER]
+# utiliser le script printers.py pour obtenir les IDs
 if ('printer_id' in configPrinter['PRINTER']) and ('printer_alma' in configPrinter['PRINTER']):
     printer_id = configPrinter['PRINTER']['printer_id']
     printer_alma = configPrinter['PRINTER']['printer_alma']
